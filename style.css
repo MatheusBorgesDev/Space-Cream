@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%; /* 10px */
+}
+
+body {
+    background: #EFF1FF;
+}
+
+body::before {
+    content: '';
+    left: 0%;
+    top: 0%;
+    position: absolute;
+    z-index: -1;
+    height: 27.9rem;
+    width: 100%;
+    background: #8E9AAF;
+}
+
+.page {
+    width: 38.4rem;
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    padding: 3.2rem 0 2.9rem;
+}
+
+header img {
+    padding-bottom: 3.2rem ;
+    width: 13.7rem;
+}
+
+header h1 {
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 3.4prem;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    
+    background: #CBC0D3;
+}
+
+main {
+    background: #EFF1FF;
+    padding: 1.4rem 3.2rem 6rem;
+}
+
+p {
+    font-family: 'Palanquin', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 1.5rem;
+    color: #23053A;
+
+    margin-bottom: 6.3rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+
+}
+
+.card {
+    position: relative;
+
+    animation-name: slit-in-horizontal;
+		animation-duration: 1s;
+		animation-timing-function: ease;
+		animation-delay: 1s;
+		animation-iteration-count: 1;
+		animation-direction: normal;
+		animation-fill-mode: backwards;
+
+}
+
+.card p {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+
+    font-family: 'Staatliches';
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.4rem;
+    letter-spacing: 0.05em;
+    color: #4A4E69;
+
+    background: #FEEAFA;
+    border-radius: 20px;
+    width: 11.2rem;
+}
+
+@keyframes slit-in-horizontal {
+			
+    0% {
+        transform:translateZ(-800px) rotateX(90deg);
+        opacity:0;
+    }
+    50% {
+        transform:translateZ(-160px) rotateX(87deg);
+        opacity:1;
+    }
+    100% {
+        transform:translateZ(0) rotateX(0);
+    }
+}
