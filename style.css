@@ -144,19 +144,13 @@ footer {
         display: none;
     }
 
-    body {
-        width: 100%;
-    }
-
     .page {
         display: flex;
-        margin: auto;
-        height: 72rem;
-        width: 100%;
+        width: 100vw;
     }
 
     header {
-        width: 37.7rem;
+        width:auto;
         background: #8E9AAF;
         height: 100vh;
     }
@@ -193,11 +187,11 @@ footer {
     main {
         margin-top: 6.4rem;
         margin-left: 9.8rem;
-        
     }
 
     .cards {
         display: grid;
+        grid-template-columns: 1fr 1fr;
         grid-template-areas: 
         "A B C"
         "D B F"
