@@ -26,10 +26,10 @@ body::before {
     content: '';
     left: 0%;
     top: 0%;
-    position: absolute;
+    position:absolute;
     z-index: -1;
-    height: 27.9rem;
-    width: 100vw;
+    height: 28.2rem;
+    width: 100%;
     background: #8E9AAF;
 }
 
@@ -47,6 +47,8 @@ header p {
 
 header {
     padding: 3.2rem 0 2.9rem;
+    background: #8E9AAF;
+    width: 38.4rem;
 }
 
 header img {
