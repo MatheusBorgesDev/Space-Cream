@@ -144,9 +144,15 @@ footer {
         display: none;
     }
 
+    body {
+        width: 100%;
+    }
+
     .page {
         display: flex;
-        width: 100vw;
+        margin: auto;
+        height: 72rem;
+        width: 100%;
     }
 
     header {
@@ -170,7 +176,6 @@ footer {
         opacity: inherit;
         position: relative;
         width: 27.5rem;
-        height: 100%;
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 2.4rem;
@@ -188,6 +193,7 @@ footer {
     main {
         margin-top: 6.4rem;
         margin-left: 9.8rem;
+        
     }
 
     .cards {
