@@ -1,20 +1,22 @@
-# TIMER 2.0
+# Space Cream
 
-> Project built as a challenge to the student during Rocketseat's Explorer trail classes.
+## One page template for an ice cream shop
 
-    The challenge was to create all the HTML and CSS from a FIGMA model, improving knowledge about display grid, responsiveness, mobile first, transitions, transformations and animations with CSS.
+> Project built during classes on the Explorer trail at Rocketseat educational institution.
+> 
+> The challenge was to create all the HTML and CSS from a FIGMA model, improving knowledge about display grid, responsiveness, mobile first, transitions, transformations and animations with CSS.
 
 ![preview_1](./.github/preview_1.png)
 ![preview_2](./.github/preview_2.png)
 
-🔗 [Click here to access](https://mbslash.github.io/Space-Cream/)
+🔗 [Click here to access](https://matheusborgesdev.github.io/Space-Cream/)
 
 ## 💻 Technologies
 
 - HTML
 - CSS
+- Git e Github
 - Figma
-- Git & GitHub
 
 ## 📧 Contact
 
