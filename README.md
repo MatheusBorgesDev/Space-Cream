@@ -2,8 +2,6 @@
 
 ## One page template for an ice cream shop
 
-> Project built during classes on the Explorer trail at Rocketseat educational institution.
-> 
 > The challenge was to create all the HTML and CSS from a FIGMA model, improving knowledge about display grid, responsiveness, mobile first, transitions, transformations and animations with CSS.
 
 ![preview_1](./.github/preview_1.png)
